@@ -27,14 +27,14 @@ function isURL(str) {
 module.exports = {
 	config: {
 		name: "cmd",
-		version: "1.16",
-		author: "NTKhang",
-		countDown: 5,
-		role: 2,
-		shortDescription: {
-			vi: "Quản lý command",
-			en: "Manage command"
-		},
+    version: "1.0.0",
+    permission: 1,
+    credits: "nayan",
+    description: "manage/control all bot modules",
+    prefix: true,
+    category: "operator",
+    usages: "[load/unload/loadAll/unloadAll/info] [command name]",
+    cooldowns: 5 },
 		longDescription: {
 			vi: "Quản lý các tệp lệnh của bạn",
 			en: "Manage your command files"
